@@ -1,0 +1,49 @@
+.Page-Detail-Container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+    .PD-Section-1 {
+        overflow: hidden;
+
+        .Title {
+            font-size: 140px;
+            white-space: nowrap;
+            animation: infinite 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+            margin: 10px 0px;
+            font-family: Montserrat;
+            font-weight: 600;
+        }
+    }
+
+    .PD-Section-2 {
+        padding: 60px;
+
+        img {
+            width: 100%;
+
+            border-radius: 20px;
+        }
+
+    }
+    .PD-Section-3{
+        padding: 60px;
+        display: flex;
+        p{
+            margin: 0;
+        }
+        .Left-Side{
+            display: flex;
+            width: 50%;
+            .Overview{
+                display: flex;
+
+            }
+        }
+        .Right-Side{
+            display: flex;
+            width: 50%;
+        }
+    }
+}
